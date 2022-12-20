@@ -1,0 +1,32 @@
+#????????????????????
+#    url: jdbc:mysql://47.113.184.13:3306/vue?serverTimezone=GMT%2b8
+#  ip: 47.113.184.13
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vue?serverTimezone=GMT%2b8
+    username: root
+    password: 153015
+  redis:
+    ip: 127.0.0.1
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  ip: 127.0.0.1
+  port: 9090
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+files:
+  upload:
+    path: D:/SpringBootVue/files/
+#    path: /home/files/
