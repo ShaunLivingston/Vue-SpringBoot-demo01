@@ -28,5 +28,5 @@ mybatis-plus:
 
 files:
   upload:
-    path: D:/SpringBootVue/files/
+    path: D:/SpringBootVue/springboot/files/
 #    path: /home/files/
